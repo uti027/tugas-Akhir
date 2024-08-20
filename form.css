@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"], input[type="date"], input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.form-group.inline label {
+    display: inline;
+    margin-right: 10px;
+}
+.form-group.inline input[type="checkbox"] {
+    margin-right: 20px;
+}
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+.error {
+    color: red;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}

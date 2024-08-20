@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightgray;
+  font-family: sans-serif;
+}
+
+.main-container {
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+}
+
+.img-header {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.img-header img {
+  width: 20%;
+}
+
+.menu-header {
+  background-color: #007BFF;
+  padding: 15px;
+}
+
+.menu-header a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.menu-header a:hover {
+  color: black;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.paket-container {
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.paket-container h4 {
+  color: rgb(139, 128, 128);
+}
+
+.paket-container img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.btn{
+  appearance: none;
+  background-color: #3584b9;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.video-container {
+  width: 300px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: auto;
+}
+
+.seacrh-container {
+  margin-bottom: 10px;
+}
+
+.seacrh-container input[type="text"] {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.seacrh-container input[type="submit"] {
+  padding: 5px;
+}
+
+.brand-container {
+  width: 60%;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.brand-container img {
+  width: 60%;
+}
+
+.brand-container h1 {
+  color: white;
+  font-size: 3.5vw;
+  text-shadow: 2px 2px 8px #000;
+  font-family: "Kanit", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.brand-container h2 {
+  color: white;
+  font-size: 2.5vw;
+  text-shadow: 2px 2px 8px #000;
+}
